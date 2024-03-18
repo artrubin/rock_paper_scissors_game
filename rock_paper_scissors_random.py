@@ -20,29 +20,34 @@ while user_wins < score and computer_wins < score:
             print(f"Computer plays '{computer_choice}', it is a tie!!! ")
         elif user_choice == "rock":
             if computer_choice == "scissors":
-                print(f"Computer plays '{computer_choice}', you won this round!!!")
+                print(f"Computer plays '{
+                      computer_choice}', you won this round!!!")
                 user_wins += 1
             elif computer_choice == "paper":
-                print(f"Computer plays '{computer_choice}', you lost this round!!!")
+                print(f"Computer plays '{
+                      computer_choice}', you lost this round!!!")
                 computer_wins += 1
         elif user_choice == "paper":
             if computer_choice == "scissors":
                 print(f"Computer plays '{computer_choice}', you lost round!!!")
                 computer_wins += 1
             elif computer_choice == "rock":
-                print(f"Computer plays '{computer_choice}, you won this round!!!")
+                print(f"Computer plays '{
+                      computer_choice}, you won this round!!!")
                 user_wins += 1
         elif user_choice == "scissors":
             if computer_choice == "rock":
-                print(f"Computer plays '{computer_choice}', you lost this round!!!")
+                print(f"Computer plays '{
+                      computer_choice}', you lost this round!!!")
                 computer_wins += 1
             elif computer_choice == "paper":
-                print(f"Computer plays '{computer_choice}', you won this round!!!")
+                print(f"Computer plays '{
+                      computer_choice}', you won this round!!!")
                 user_wins += 1
 if user_wins > computer_wins:
     print("CONGRATULATION, YOU WON THE GAME!!!")
 elif user_wins == computer_wins:
-    print ("IT'S A TIE...)
+    print("IT'S A TIE...")
 else:
     print("OH NO :( THE COMPUTER WON THE GAME ...")
 
